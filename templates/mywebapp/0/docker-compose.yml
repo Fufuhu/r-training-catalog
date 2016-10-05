@@ -1,6 +1,6 @@
 myweb-app:
   ports:
-  - 8080:80
+  - ${port}:80
   tty: true
   image: rancher/load-balancer-service
   links:

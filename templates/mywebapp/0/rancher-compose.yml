@@ -1,7 +1,10 @@
 .catalog:
   name : "My Web App"
-  version : "v0.1"
+  version : "v0.2"
   description: "My Cool App"
+  questions: 
+    - variable : port
+      description : "Public listening port"
 myweb-app:
   scale: 1
   load_balancer_config:
