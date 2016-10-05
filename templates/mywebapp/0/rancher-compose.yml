@@ -5,6 +5,10 @@
   questions: 
     - variable : port
       description : "Public listening port"
+      label: "Public port"
+      required: true
+      default: "80"
+      type: "int"
 myweb-app:
   scale: 1
   load_balancer_config:
