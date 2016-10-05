@@ -5,7 +5,7 @@
   questions: 
     - variable : port
       description : "Public listening port"
-      label: "Public port"
+      label: "Public Port"
       required: true
       default: "80"
       type: "int"
